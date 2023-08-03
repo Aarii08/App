@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'lists/new'
   post 'lists' => 'lists#create'
-  get 'lists/index'
+  get 'lists' => 'lists#index'
   get 'lists/show'
   get 'lists/edit'
   # urlの/homes/という部分が不要なのでルーティングを少し書き換える。
